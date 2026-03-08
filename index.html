@@ -1,197 +1,121 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
+  <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Amar Sagar | Portfolio</title>
 
-	<!--/ /---- Put your name in the title of the page ----/ /-->
-	<title>Amar </title>
-	
-	<!--/ /-------- Normalize CSS --------/ /-->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
-	
-	<!--/ /-------- Google Fonts --------/ /-->
-	<!-- Add a link to google fonts here if you want them -->
-	
-	<!--/ /-------- Font Awesome --------/ /-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-	<!--/ /-------- Your Styles --------/ /-->
-	<link href="styles.css" rel="stylesheet">
-
-	<!--/ /---Put a short description for your site below. 20 words or less---/ /-->
-	<meta description="A short description for your site...">
-
-	<!--/ /-------- Needed For Mobile Devices --------/ /-->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-	
-    <!-- ------------------------------------------------------
-    The site is designed to be mobile first. The wrapper elements
-	are in place for when you get to desktop size to contain the 
-	content.
-    ------------------------------------------------------- -->
-    
-	<header class="primary">
-        <div class="wrapper">
-            
-			<div class="logo-container">
-				<h1><br>Amar<br>Portfolio</h1>
 
-				<!-- ------------------------------------------------------
-				Note that the image of the logo is linked to the home page.
-				------------------------------------------------------- -->
-				<a href="index.html"><img src="https://dummyimage.com/175/c4c4c4/fff&text=logo" alt="logo image" id="logo"></a>
-			</div>
-            
-            
-			<!-- ------------------------------------------------------
-            The navigation here is linking to the sections further down
-            the page.
-            ------------------------------------------------------- -->
-			<nav id="mainnav">
-            	<ul>
-                	<li><a href="#work">Work</a></li>
-                    <li><a href="#about-contact">About</a></li>
-                    <li><a href="#about-contact">Contact</a></li>
-                </ul>
-            </nav>
-            
-        </div>
-        
-    </header>
-    
-    <!-- ------------------------------------------------------
-    This is the work section, which has two parts: the featured
-	section and the projects section.
-    ------------------------------------------------------- -->
-    
-    <section id="work">
-   		<div class="wrapper">
-        	<h2>Check Out My Best Projects</h2>
-        	<section class="featured">
-                <article>
-                	<!-- ------------------------------------------------------
-                    Link the image below to the detail page for this project.
-                    Use the page.html file to make that page. Also link the 
-                    anchor tag in the paragraph below to the same page.
-                    ------------------------------------------------------- -->
-                	<a href="#"><img src="https://dummyimage.com/510x300/c4c4c4/fff&text=Featured+Project" alt="image"></a>
-                </article>
-                
-                <article>
-                	<h3>Title of Project</h3>
-                    <h4>Challenge Statement</h4>
-                    <p>Before they sold out single-origin coffee fingerstache sartorial freegan master cleanse. Sartorial blog fap, shoreditch scenester tacos poutine. Bespoke brunch viral listicle, keffiyeh celiac paleo organic scenester next level cliche put a bird on it cardigan. Forage kombucha pitchfork literally. Art party narwhal food truck selfies, XOXO leggings distillery four loko fap. An additional sentence.</p> <p><a href="#">Find out how I solved this problem</a></p> 
-                </article>
-            </section> <!-- end row -->
-            
-            
-            <!-- ------------------------------------------------------
-            The projects section is for additional projects. I put four in
-			here, but it could be more, or less. You just have to pay
-			attention to how they wrap, and how many you want per row.
-            
-            Note that each image should be linked to the page with more
-            detailed information about that project. You can use a copy of
-            page.html to create those pages.
-            ------------------------------------------------------- -->
-            
-            <section class="projects">
-            
-            	<article>
-                	<h3>Project Title</h3>
-                	<a href="#"><img src="https://dummyimage.com/340x200/c4c4c4/fff&text=Another+Project" alt="image"></a>
-                    <p><strong>Role:</strong> Designer</p>
-                    <p><strong>Description:</strong> Website for a restaurant and redesigned the online menu.</p>
-                </article>
-                
-                <article>
-                	<h3>Project Title</h3>
-                	<a href="#"><img src="https://dummyimage.com/340x200/c4c4c4/fff&text=Another+Project" alt="image"></a>
-                    <p><strong>Role:</strong> Designer</p>
-                    <p><strong>Description:</strong> Website for a restaurant and redesigned the online menu.</p>
-                </article>
-                
-                <article>
-                	<h3>Project Title</h3>
-                	<a href="#"><img src="https://dummyimage.com/340x200/c4c4c4/fff&text=Another+Project" alt="image"></a>
-                    <p><strong>Role:</strong> Designer</p>
-                    <p><strong>Description:</strong> Website for a restaurant and redesigned the online menu.</p>
-                </article>
-				
-				<article>
-                	<h3>Project Title</h3>
-                	<a href="#"><img src="https://dummyimage.com/340x200/c4c4c4/fff&text=Another+Project" alt="image"></a>
-                    <p><strong>Role:</strong> Designer</p>
-                    <p><strong>Description:</strong> Website for a restaurant and redesigned the online menu.</p>
-                </article>
-            
-            </section><!-- end row -->
-            
-        </div> <!-- end work wrapper -->
-    </section>
-    
-    
-    <!-- ------------------------------------------------------
-    This is the about and contact section. The links in the main
-    navigation link to this section. 
-    ------------------------------------------------------- -->
-    
-    <section id="about-contact" class="secondary">
-   		<div class="wrapper">
-        	
-			<div class="profile-photo">
-            	<img src="http://placehold.it/260?text=Your+Photo" alt="image">
-            </div>
-			
-            <article>
-				<h2>About Me</h2>
-				<p>I am a motivated engineering student with a strong interest in software development, data analytics, and emerging technologies. I continuously work on improving my technical skills, problem-solving ability, and logical thinking. I am passionate about learning, adapting to new challenges, and building efficient solutions with a growth mindset.</p>
-				<h3>Skills</h3>
-				<p>I am particularly good at analytical thinking and programming and really enjoy exploring new technologies. I am currently learning Generative AI and data analytics, and I'm very excited about applying them to real-world problems.</p>
-			</article> 
-                
-			<article>
-				<h2>Contact Me!</h2>
-				<p>I am currently looking for opportunities to work with a team where I can learn, grow, and contribute my skills. Please feel free to contact me via phone, email, or through my social media channels.</p>
+<!-- ===== NAV ===== -->
+<header class="nav">
+  <div class="logo">Portfolio<span></span></div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-				<!-- ------------------------------------------------------
-				Be sure to encode your email address at this site, so you 
-				don't get spam. http://wbwip.com/wbw/emailencoder.html
-				------------------------------------------------------- -->
+<!-- ===== HERO ===== -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Hi, I’m <span>Amar Sagar</span></h1>
+    <h2>An Undergraduate Computer Science student at PES University Bengaluru </h2>
+    <p>
+      I build scalable software, intelligent systems,
+      and clean user experiences using modern technologies.
+    </p>
 
-				<p><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:&#101;&#109;&#097;&#105;&#108;&#064;&#115;&#111;&#109;&#101;&#119;&#104;&#101;&#114;&#101;&#046;&#099;&#111;&#109;">&#101;&#109;&#097;&#105;&#108;&#064;&#115;&#111;&#109;&#101;&#119;&#104;&#101;&#114;&#101;&#046;&#099;&#111;&#109;</a><br>
-				<i class="fa fa-phone" aria-hidden="true"></i> +91 6362335370</p>
+    <div class="hero-actions">
+      <a href="assets/Amar_Resume.pdf" class="btn primary" download>Download Resume</a>
+      <a href="#projects" class="btn ghost">View Work</a>
+    </div>
+  </div>
 
-				<!-- ------------------------------------------------------
-				You can see here that I have included font-awesome. It is used
-				to create the icons above and below. You can go to the font-awesome
-				website to see the available icons and swap some out.
-				------------------------------------------------------- -->
+  <div class="hero-image">
+<img src="assets/1.jpg" alt="Profile" class="profile-img">
+  </div>
+</section>
 
-				<p class="social">
-					<a href="#"><i class="fab fa-facebook"></i></a>
-					<a href="#"><i class="fab fa-linkedin"></i></a> 
-					<a href="#"><i class="fab fa-twitter-square"></i></a>
-				</p>
-			</article>
-                   
-        </div>
-    </section>
-    
-    
-    <!-- ------------------------------------------------------
-    The footer section is not doing much on this page. Add more
-    content if necessary.
-    ------------------------------------------------------- -->
-    <footer class="primary">
-    	<div class="wrapper">
-        	<p class="centered">&copy; 2019 all rights reserved</p>
-        </div>
-    </footer>
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section glass">
+  <h3>About Me</h3>
+  <p>
+    I am a third-year engineering student passionate about
+    software development, machine learning, data analytics and system design.
+    I enjoy turning complex problems into simple, efficient solutions.
+  </p>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="section">
+  <h3>Skills</h3>
+  <div class="skills">
+    <span>Python</span>
+    <span>C</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>MySQL</span>
+    <span>Data analytics</span>
+    <span>Machine Learning</span>
+    <span>GitHub</span>
+   
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects" class="section glass">
+  <h3>Projects</h3>
+
+  <div class="project-grid">
+    <div class="project">
+      <h4>
+Wind Turbine Failure Prediction Using Machine Learning</h4>
+      <p>Tech Stack Used:
+Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Jupyter Notebook</p>
+      <span>Description:
+Developed a machine learning model to predict potential wind turbine failures using sensor data, enabling predictive maintenance and reducing downtime.</span>
+    </div>
+
+    <div class="project">
+      <h4> Campus Exchange</h4>
+      <p>Tech Stack: MySQL, SQL, ER Diagram, Relational Schema, Normalization</p>
+      <span>Description: Campus Exchange is a database-driven platform designed to manage buying, selling, and exchanging items within a campus using efficient DBMS concepts.</span>
+    </div>
+
+    <div class="project">
+      <h4>Charity Fundraising Event </h4>
+      <p>Tech Stack: HTML, CSS, JavaScript, Python (Flask), MySQL, REST APIs, Github.</p>
+      <span>Description:
+Developed a web-based charity fundraising management system to organize events, manage donors, and track donations efficiently.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="section">
+  <h3>Contact</h3>
+
+  <div class="contact">
+    <a href="mailto:amarssagar6362@gmail.com">📧 Email</a>
+    <a href="https://github.com/amarsagar-dev" target="_blank">💻 GitHub</a>
+    <a href="https://linkedin.com/in/-amarsagar" target="_blank">🔗 LinkedIn</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Amar Sagar · Built with passion
+</footer>
 
 </body>
 </html>
